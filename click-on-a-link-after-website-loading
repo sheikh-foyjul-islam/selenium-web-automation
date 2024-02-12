@@ -1,1 +1,34 @@
+package basic;
+
+import com.google.common.annotations.VisibleForTesting;
+import org.junit.jupiter.api.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class ElegantWebsiteAutomation {
+    @Test
+    public void loadElegantHomePage() throws InterruptedException {
+        //Open Browser
+        WebDriver driver = new ChromeDriver();
+
+        //Browse elegant home page
+        driver.get("https://elegantinterior.com.au/");
+
+        //Observe the loaded home page
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+
+        // Find and click on a specific link
+        WebElement specificLink = driver.findElement(By.linkText("FURNITURE"));
+        specificLink.click();
+
+        //close the browser
+        driver.close();
+    }
+}
 
