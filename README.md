@@ -70,7 +70,3 @@ Contributions are welcome! If you have any improvements or additional automation
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to modify this template to suit your project's specific requirements. Let me know if you need further assistance!
