@@ -35,7 +35,7 @@ To run the scripts in this repository, ensure you have the following installed:
     <dependency>
         <groupId>org.seleniumhq.selenium</groupId>
         <artifactId>selenium-java</artifactId>
-        <version>3.141.59</version> <!-- Update with the latest version -->
+        <version>4.12.1</version>
     </dependency>
     ```
 
@@ -43,7 +43,7 @@ To run the scripts in this repository, ensure you have the following installed:
 
     ```groovy
     dependencies {
-        implementation 'org.seleniumhq.selenium:selenium-java:3.141.59' // Update with the latest version
+        implementation 'org.seleniumhq.selenium:selenium-java:4.12.1'
     }
     ```
 
