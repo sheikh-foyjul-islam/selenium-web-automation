@@ -1,9 +1,4 @@
 # selenium-web-automation
-Certainly! Here's the README template tailored for a Selenium web automation repository using Java:
-
----
-
-# Selenium Web Automation Tasks
 
 This repository contains a collection of Selenium web automation tasks implemented in Java using Selenium WebDriver.
 
